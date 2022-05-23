@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #220d0d;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Festive & family= IBM+Plex+Serif:ital,wght@0,700;1,500 & family= Roboto & display=swap');
+
+/* logo de mi header*/
+
+
+.mi-logo {
+    border-radius: 20%;
+    height: 100px;
+    width: 100%;
+}
+
+.mi-nav {
+    background-color: black;
+}
+
+div.container-fluid {
+    background-color: #020202;
+    box-shadow: 0px 5px 10px rgb(44, 25, 25);
+}
+
+.mi-titulo {
+    padding: 1em;
+    color: rgb(206, 198, 195);
+    font-family:IBM Plex Serif ;
+    font-size: 3em;
+    font-style:italic;
+}
+
+.el-texto{
+    padding-top:1em;
+    color: white;
+    font-family:roboto;
+    font-style: italic;
+    font-size: large;
+
+}
+
+.el-textodos{
+    color: #074a56;
+    font-size:2em;
+    font-style: normal;
+    background-color: rgb(22, 18, 11) ;
+    box-shadow: inset;
+    margin-top: 1em;
+}
+
+/*seccion cards usados*/
+
+.card {
+    margin: 2em;
+}
+
+.contenedorCards {
+    border-style: solid;
+    border-color: #222;
+    display: flex;
+    border-radius: 4%;
+}
+
+
+
+/*seccion del footer*/
+
+.el-foter {
+    background: linear-gradient(to bottom, transparent, #222);
+
+}
+
+.red-social {
+    height: 200px;
+    height: 100px;
+    padding: 1em;
+}
+
+/* fin del footer */
+
+
+.banana{
+    background-color: #190505;
+    font-size: smaller;
+    color: rgb(59, 59, 59);
+    padding: 1.5em;
+    margin: auto;
+}
+
+
+/* SECCION USADOS.HTML  */
+
+
+.card{
+    margin:2em;
+}
+
+.contenedorCards{
+    display: flex;
+    border-radius: 4%;
+}
+
+
+/* SECCION FINANCIACION.HTML */
+
+.texto-tres{
+    color:#fff;
+    font-size:2em;
+    font-style: roboto;
+    background-color: rgb(0, 0, 0) ;
+    box-shadow: inset;
+    margin-top: 1em;
+    border-radius: 20%;
+}
+
+/* SECCION FORMULARIO  */
+
+.text-form{
+    color: rgb(122, 112, 112);
+    font-family: roboto;
+    font-style: normal;
+}
+
+.el-input{
+    background-color: #222;
+    border-style :solid ;
+    border-radius:20% ;
+    border-color: #220d0d;
+}
